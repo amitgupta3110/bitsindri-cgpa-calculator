@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const credits = [23, 24, 21, 21, 24, 22, 20, 8];
+  const credits = [22, 22, 20, 21, 24, 22, 20, 8];
   const [sgpa, setSgpa] = useState(Array(8).fill(""));
   const [cgpa, setCgpa] = useState(null);
 
